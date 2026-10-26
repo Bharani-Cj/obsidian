@@ -1,0 +1,5 @@
+###### Remove source maps from production and keep secrets out of front-end code.
+- **Problem:** production builds shipped `.map` files, and anyone could download them to read our original source.
+- **Fix:** the build now makes hidden maps, uploads them privately to Sentry, and deletes them before the image ships. The bundles no longer point to any map. Sentry still shows readable stack traces, because it matches errors to the uploaded maps on its own servers.
+- **Secrets:** the new Sentry auth token is only read in `vite.config.mjs` at build time. It's never put into browser code, and it comes from the build environment rather than the repo.
+- **Still to do:** pass the token and the Sentry org and project names into the Docker build. Until then, production has no maps and Sentry traces are minified.
