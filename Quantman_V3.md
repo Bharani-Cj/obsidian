@@ -3,8 +3,8 @@
 ## Expo SDK Upgrade
 
 - **Upgrade Expo SDK** to [Latest](https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/)
-    - [ ] Upgrade
-    - [ ] Audit dependencies that only support lower SDK versions.
+    - [x] Upgrade
+    - [x] Audit dependencies that only support lower SDK versions.
     - [ ] Install [ExpoUI](https://www.npmjs.com/package/@expo/ui) For more Cross Platform native handles.
     
 
