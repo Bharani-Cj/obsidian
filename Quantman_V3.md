@@ -13,9 +13,10 @@
 - [x] Implementation sentry
 - [x] Must Create Environment and handle the build <span style="color: red">[ Ex: PRODUCTION && DEVELOPMENT]</span>
 - [x] Error Boundry Impl.
-- [x] ENV system
+- [ ] ENV system
 - [ ] Get the Taproot inside
 - [ ] must setup the onapp mount actions.
+- [ ] remove reactive-native-svg
 
 ##  Local Caching System
 
