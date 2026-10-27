@@ -11,9 +11,9 @@
 ##  Impl. `sentry` and `ENV`
 
 - [x] Implementation sentry
-- [ ] Must Create Environment and handle the build <span style="color: red">[ Ex: PRODUCTION && DEVELOPMENT]</span>
-- [ ] Error Boundry Impl.
-- [ ] ENV system
+- [x] Must Create Environment and handle the build <span style="color: red">[ Ex: PRODUCTION && DEVELOPMENT]</span>
+- [x] Error Boundry Impl.
+- [x] ENV system
 - [ ] Get the Taproot inside
 
 ##  Local Caching System
