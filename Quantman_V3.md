@@ -15,6 +15,7 @@
 - [x] Error Boundry Impl.
 - [x] ENV system
 - [ ] Get the Taproot inside
+- [ ] must setup the onapp mount actions.
 
 ##  Local Caching System
 
@@ -36,6 +37,7 @@
 - [ ] Move [BrokerImages](https://github.com/zeequant/zeequant-frontend/tree/master/public/images/brokers) To [client-taproot](https://github.com/zeequant/client-taproot)
 - [ ] Remove mobile auth Route on the zeequant-frontend `[If not needed]`
 - [ ] keep the UserData and other important keys on the [local database](https://www.npmjs.com/package/expo-sqlite)
+- [ ] socket must be connect at the app mount
 
 ---
 
