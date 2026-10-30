@@ -24,6 +24,7 @@
 
     - [x] Implement and local data storage and retrieval
     - [ ] Remove <span style="color: violet;">@react-native-async-storage/async-storage</span> from the package and move the existing storage to expo-sqLite
+    - [ ] check weather the catched pnl show correct as per the user
 ##  Theme 
 
 - [ ] **Migrate existing screens to the new color palette**
