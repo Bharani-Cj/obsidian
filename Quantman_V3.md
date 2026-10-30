@@ -13,16 +13,16 @@
 - [x] Implementation sentry
 - [x] Must Create Environment and handle the build <span style="color: red">[ Ex: PRODUCTION && DEVELOPMENT]</span>
 - [x] Error Boundry Impl.
-- [ ] ENV system
-- [ ] Get the Taproot inside
-- [ ] must setup the onapp mount actions.
-- [ ] remove reactive-native-svg
+- [x] ENV system
+- [x] Get the Taproot inside
+- [x] Must setup the onapp mount actions.
+- [x] Remove react-native-svg. -{ Cant be removed, Lucid uses it }
 
 ##  Local Caching System
 
 - **Implement local caching with [expo-sqlite](https://www.npmjs.com/package/expo-sqlite)**
-        
-    - [ ] Implement and local data storage and retrieval
+
+    - [x] Implement and local data storage and retrieval
     - [ ] Remove <span style="color: violet;">@react-native-async-storage/async-storage</span> from the package and move the existing storage to expo-sqLite
 ##  Theme 
 
@@ -38,13 +38,14 @@
 - [ ] Move [BrokerImages](https://github.com/zeequant/zeequant-frontend/tree/master/public/images/brokers) To [client-taproot](https://github.com/zeequant/client-taproot)
 - [ ] Remove mobile auth Route on the zeequant-frontend `[If not needed]`
 - [ ] keep the UserData and other important keys on the [local database](https://www.npmjs.com/package/expo-sqlite)
-- [ ] socket must be connect at the app mount
+- [ ] Socket must be connect at the app mount
 
 ---
 
-    Dashboard Fixes
+    Home
 
 - [ ] Must reload the positions when the app is in background more than 30 Seconds.
+- [ ] 
 
 ---
 
